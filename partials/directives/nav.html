@@ -1,0 +1,5 @@
+<!--Add buttons to switch between languages-->
+<button ng-show="lang == 'en'" ng-click="changeLanguage('nl')" style="float: right">Nederlands</button>
+<button ng-show="lang == 'nl'" ng-click="changeLanguage('en')" style="float: right">Engels</button>
+<!--Store menu in ul class, class added is for styling-->
+<ul class="main-navigation" ng-bind-html="navLinksHtml"></ul>
